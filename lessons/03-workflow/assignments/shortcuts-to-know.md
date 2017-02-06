@@ -12,7 +12,7 @@ The following is a list of common shortcut commands. If you don't know these, lo
 | CTRL+P           | Print                 | command + p
 | CTRL+A           | Select All            | command + a
 | CTRL+Z           | Undo                  | command + z
-| CTRL+Y           | Redo                  | command + shift + z
+| CTRL+Y           | Redo                  | command + y
 | **CTRL+F**       | Find                  | command + f
 | ALT+TAB          | switch b/w programs   | command + tab
 | ALT+F4           | quit program          | command + q
