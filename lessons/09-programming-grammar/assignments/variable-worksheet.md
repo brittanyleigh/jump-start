@@ -18,12 +18,14 @@ x + y
 ```ruby
 x = 5
 x
+5
 ```
 
 2.
 ```ruby
 z = "Hello"
 z
+Hello
 ```
 
 3.
@@ -31,6 +33,7 @@ z
 x = 5
 y = 3.2
 x + y
+8.2
 ```
 
 4.
@@ -38,12 +41,14 @@ x + y
 var1 = "lawl"
 var2 = "brb"
 var2
+brb
 ```
 
 5.
 ```ruby
 x = 6+3
 x
+9
 ```
 
 6.
@@ -51,6 +56,7 @@ x
 x = 3.5
 x = x + 2
 x
+5.5
 ```
 
 7.
@@ -58,6 +64,7 @@ x
 poodle = 4
 pitbull = 3
 boxer
+null
 ```
 
 8.
@@ -65,6 +72,7 @@ boxer
 x = 5
 x = x + x
 x
+10
 ```
 
 9.
@@ -73,6 +81,7 @@ a = 1
 b = 2
 c = 3
 a + b + c
+6
 ```
 
 10.
@@ -81,6 +90,7 @@ a = "moo"
 b = "quack"
 a  = b
 b
+quack
 ```
 
 11.
@@ -90,6 +100,7 @@ b = "quack"
 c = "woof"
 a = c
 a
+woof
 ```
 
 12.
@@ -99,6 +110,7 @@ x = x * 2
 x = x * 2
 x = x * 2
 x
+40
 ```
 
 13.
@@ -106,6 +118,7 @@ x
 a = 5
 b = 6
 3 * 6
+18
 ```
 
 14.
@@ -113,6 +126,7 @@ b = 6
 a = "b"
 b = "a"
 a
+b
 ```
 
 15.
@@ -121,24 +135,28 @@ a = 3234
 b = 2398
 c = 0
 (a+b)/c
+nan
 ```
 
 16.
 ```ruby
 y = 7
 y % 2
+1
  ```
 
 17.
 ```ruby
 y = 12
 y % 4
+0
  ```
 
 18.
 ```ruby
 z = 17
 z % 3
+2
 ```
 
 19.
@@ -146,6 +164,7 @@ z % 3
 a = 5
 b = 6
 a < b
+true
 ```
 
 20.
@@ -153,6 +172,7 @@ a < b
 a = 5
 b = 6
 b >= a
+true
 ```
 
 **When you are complete with all of these problems, you can check your answers against the [answer key](../assignments/variable-worksheet-answers.md).**
