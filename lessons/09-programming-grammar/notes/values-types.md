@@ -15,6 +15,8 @@ A `Fixnum` is a whole number expressed without a decimal. There's a couple ways 
 
 #### Question: How are `42` and `"42"` different?
 
+Anything in single or double quotes is a string, even if it's a number.
+
 #### Float
 A `Float` is a number expressed __with__ a decimal value. For example, _float values_ can be expressed by typing a number with a decimal like `3.14`, `0.05`, and `1000.2387`.   
 There are important distinctions between doing math in Ruby with _fixnum_ and _float values_, but we will talk about those differences later.
