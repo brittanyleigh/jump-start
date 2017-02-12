@@ -19,7 +19,9 @@ if cake == true
 else
    print "WHATEVZ DESSERTZ."
 end
-```
+```  
+OMG COOKIEZ   
+WHATEVS DESSERTZ.
 
 2.
 ```ruby
@@ -33,7 +35,8 @@ elsif ada_age < person_age
 else
    print "They’re the same!"
 end
-```
+```  
+Ada is younger
 3.
 ```ruby
 pet = "cat"
@@ -52,8 +55,9 @@ if food == "broccoli"
 elsif food == "ice cream"
    print "yum"
 end
-```
-
+```  
+here kitty
+yum
 
 4.
 ```ruby
@@ -69,7 +73,8 @@ if x >= y
 else
    print "y is bigger"
 end
-```
+```  
+x = y
 
 5.
 ```ruby
@@ -101,7 +106,9 @@ end
 if x == y
    print "x = y"
 end
-```
+```  
+x is bigger  
+x = y
 
 
 **When you are complete with all of these problems, you can check your answers against the [answer key](../assignments/conditional-worksheet-answers.md).**
