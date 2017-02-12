@@ -11,13 +11,13 @@ i = 1.5
 
 | Op |   | Result | Data Type |
 |:---: |:---:| :---: | :---: |
-| d + e | evaluates to |   |   |
-| f + h | evaluates to |  |  |
-| g + h | evaluates to |  |  |
-| d - f | evaluates to |  |  |
-| g - e | evaluates to |  |  |
-| (h + i) - f | evaluates to |  |  |
-| (d - f) + e | evaluates to |   |   |
+| d + e | evaluates to | 15.0  | float  |
+| f + h | evaluates to | 5 | fixnum |
+| g + h | evaluates to | 14.0 | float |
+| d - f | evaluates to | 8 | fixnum |
+| g - e | evaluates to | 6.0 | float |
+| (h + i) - f | evaluates to | 2.5 | float |
+| (d - f) + e | evaluates to |  13.0 | float  |
 
 
 
@@ -25,15 +25,15 @@ i = 1.5
 
 | Op |   | Result | Data Type |
 |:---: |:---:| :---: | :---: |
-| d * f | evaluates to |  |  |
-| g * i | evaluates to |  |  |
-| f * g | evaluates to |  |  |
-| d / f | evaluates to |  |  |
-| d / e | evaluates to |  |  |
-| e / f | evaluates to |  |  |
-| (g * f) / f | evaluates to |  |  |
-| (d / f) * e | evaluates to |  |  |
-| 21 / 5 | evaluates to |  |  |
+| d * f | evaluates to | 20 | fixnum |
+| g * i | evaluates to | 16.5 | float |
+| f * g | evaluates to | 22.0 | float |
+| d / f | evaluates to | 5 | fixnum |
+| d / e | evaluates to | 2.0 | float |
+| e / f | evaluates to | 2.5 | float |
+| (g * f) / f | evaluates to | 11.0 | float |
+| (d / f) * e | evaluates to | 25.0 | float |
+| 21 / 5 | evaluates to | 4.2 | float |
 
 
 ### Overall:
