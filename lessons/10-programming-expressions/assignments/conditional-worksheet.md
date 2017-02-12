@@ -20,8 +20,7 @@ else
    print "WHATEVZ DESSERTZ."
 end
 ```  
-OMG COOKIEZ   
-WHATEVS DESSERTZ.
+OMG COOKIEZWHATEVS DESSERTZ.
 
 2.
 ```ruby
@@ -37,6 +36,8 @@ else
 end
 ```  
 Ada is younger
+
+
 3.
 ```ruby
 pet = "cat"
@@ -91,6 +92,7 @@ else
    print "y is bigger"
 end
 ```
+x = y
 
 6.
 ```ruby
