@@ -38,6 +38,16 @@ i = 1.5
 
 ### Overall:
 1.  Give two different ways to add 1 to the variable y and store that result in the variable y.
+y += 1;
+y++;
+
 2. Give two different ways for multiplying the variable x and the variable y and storing the result in x.
+x *= y;
+x = x * y;
+
 3. Give two different ways for dividing the variable y by 8, multiplying that result by z, and then storing the final result in z.
+z = (y / 8) * z;
+z *= (y / 8)
+
 4. Give an example of an invalid assignment statement.
+y / 8 = z
