@@ -4,14 +4,15 @@ Assume that the `x` and `y` variable data comes from user input prior to the con
 **Hint:** You should be able to complete this with `if/elsif/else/end`.
 ![flow control assignment](../images/flow-control-assignment.png)  
   
-if x==y
-  print 'equal'
-elsif x > y
+```ruby
+if x==y  
+  print 'equal'  
+elsif x > y  
   print 'greater'
 elsif x < y
   print 'less'  
 end
-
+```  
 
 2. Now we will go the other way! Take the conditional below and create the flow control diagram that would represent this conditional's logic.
 
