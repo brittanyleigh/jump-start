@@ -15,72 +15,84 @@ my_string.slice(0...8)
 1. 
 ```ruby
 my_string = "I love Seattle"
-my_string.slice(7) 
+my_string.slice(7)  
+S
 ```
 
 2.
 ```ruby
 my_string = "I love Seattle"
-my_string.slice(2, 4)
+my_string.slice(2, 4)  
+love
 ```
 
 3.
 ```ruby
 my_string = "I love Seattle"
-my_string.slice("Seattle")
+my_string.slice("Seattle")  
+Seattle
 ```
 
 4.
 ```ruby
 my_string = "Ada"
-my_string + " Lovelace"
+my_string + " Lovelace"  
+Ada Lovelace
 ```
 
 5.
 ```ruby
 my_string = "Ada"
-my_string << " codes" << " it!"
+my_string << " codes" << " it!"  
+Ada codes it!
 ```
 
 6.
 ```ruby
 my_string = "Ada"
-my_string.concat(" likes to code").slice(4...9)
+my_string.concat(" likes to code").slice(4...9)  
+likes
 ```
 
 7.
 ```ruby
 my_string = "Hello world"
-"Goodbye " + my_string.slice(6, 5) << "!"
+"Goodbye " + my_string.slice(6, 5) << "!"  
+Goodbye world!
 ```
 
 8.
 ```ruby
 my_string = "Hello world!"
-my_string.slice(0...5).concat(", goodbye!")
+my_string.slice(0...5).concat(", goodbye!")  
+Hello, goodbye!
 ```
 
 9.
 ```ruby
 my_string = "Hello world!"
-my_string.slice(0) << "i" + "!"
+my_string.slice(0) << "i" + "!"  
+Hi!
 ```
 
 10.
 ```ruby
 my_string = "I love ruby"
-my_string.slice(7, 4).concat(my_string.slice(2...6)) + my_string.slice(0)
+my_string.slice(7, 4).concat(my_string.slice(2...6)) + my_string.slice(0)  
+rubyloveI
 ```
 
 11.
 ```ruby
 my_string = "I love ruby"
-"R".concat(my_string.slice(8, 3) + " rocks!")
+"R".concat(my_string.slice(8, 3) + " rocks!")  
+Ruby rocks!
 ```
 
 12.
 ```ruby
 my_string = "I love ruby"
-my_string.slice(2, 4) << my_string.slice(7...11).concat(my_string.slice(2...6))
+my_string.slice(2, 4) << my_string.slice(7...11).concat(my_string.slice(2...6))  
+loverubylove
 ```
 
