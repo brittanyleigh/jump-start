@@ -35,3 +35,32 @@ them seem more Hand-made.
 - Reuse at least one word
 - Ask for at least 1 number
 - Explore Ruby's built in methods for [String](http://ruby-doc.org/core-2.2.0/String.html) like `capitalize`, `downcase`, `upcase`, and utilize them accordingly
+
+'''
+country_one = "norway";
+girl_name = "brittany";
+animal_one = "sea otter";
+animal_one_name = "wrigley";
+animal_two = "platypus";
+animal_two_name = "sienna";
+country_two = "thailand";
+method_of_transportation = "schoolbus";
+objects = "acorns";
+fruit = "cantaloupe";
+insect_plural = "fireflies"
+large_number = "1265";
+
+puts "In a far off part of " + country_one.capitalize + ", lived a girl named " + girl_name.capitalize + ". "
+puts "She had a big " + animal_one + " named " + animal_one_name.capitalize + " and a little " +
+animal_two + " named " + animal_two_name.capitalize + "."
+puts "Everyday, they dreamed of adventure."
+puts "So one day they all decided to travel from " + country_one.capitalize + " to " + country_two.capitalize + "."
+puts "They fixed up an old " + method_of_transportation + " and set off on their journey."
+puts "They saw many great things, like the world's biggest pile of " + objects + "."
+puts "They ate many strange foods, like garlic " + fruit + " with salted " + insect_plural + "."
+puts "They even visited a land where everything was backwards, and the girl's name became " + girl_name.reverse.capitalize + "."
+puts "But after traveling " + large_number + " miles, they got very homesick."
+puts "They returned to " + country_one.capitalize + " with new eyes, and a new appreciation for home."
+
+#each line starts with puts so that it displays as new lines, instead of as a paragraph. easier to read!
+'''
