@@ -36,7 +36,7 @@ them seem more Hand-made.
 - Ask for at least 1 number
 - Explore Ruby's built in methods for [String](http://ruby-doc.org/core-2.2.0/String.html) like `capitalize`, `downcase`, `upcase`, and utilize them accordingly
 
-'''
+```
 country_one = "norway";
 girl_name = "brittany";
 animal_one = "sea otter";
@@ -63,4 +63,4 @@ puts "But after traveling " + large_number + " miles, they got very homesick."
 puts "They returned to " + country_one.capitalize + " with new eyes, and a new appreciation for home."
 
 #each line starts with puts so that it displays as new lines, instead of as a paragraph. easier to read!
-'''
+```
