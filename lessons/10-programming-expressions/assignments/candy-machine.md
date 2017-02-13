@@ -75,7 +75,7 @@ b= 0.50
 c= 0.75
 d= 0.65
 e= 0.55
-puts "\nAlright, you have " + "$" + user_amount + "."
+puts "\nAlright, you have $" + user_amount + "."
 puts "This is what we have :\n"
 puts "A $0.65 Twix
 B $0.50 Chips
