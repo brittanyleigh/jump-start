@@ -153,9 +153,9 @@ while i < 3
   puts i
 end
 => 
-0
 1
 2
+3
 ```
 
 14.
@@ -190,7 +190,7 @@ i = 1
 while i
   puts "a while"
 end
-=> a while
+=> a while (for infinity - infinite loop)
 ```
 
 17.
